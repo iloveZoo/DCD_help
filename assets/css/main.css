@@ -8,9 +8,10 @@
     --violet: #677294;
 
     /* ===== Colors ===== */
+    --btn-color:
     --body-color: #E4E9F7;
     --sidebar-color: #FFF;
-    --primary-color: #695CFE;
+    --primary-color: #64afc6;
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
     --text-color: #707070;
@@ -182,6 +183,7 @@ body.dark{
 
 .sidebar header{
     position: relative;
+    
 }
 
 .sidebar header .image-text{
@@ -352,7 +354,7 @@ body.dark .switch::before{
     left: 250px;
     height: 100vh;
     width: calc(100% - 250px);
-    background-color: var(--body-color);
+    background-color: #eef6f9;
     transition: var(--tran-05);
 }
 .home .text{
@@ -369,4 +371,15 @@ body.dark .switch::before{
 }
 body.dark .home .text{
     color: var(--text-color);
+}
+
+
+.frame{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-link{
+    padding-top: 10px;
+    border-top: 1px #f2f1f1 solid;
 }
