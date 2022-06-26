@@ -73,7 +73,7 @@ p{
 }
 
 .img img{
-    width: 75%;
+    width: 60%;
 }
 
 .sub_img-text{
@@ -86,6 +86,32 @@ p{
     background-color: #cbe4ec;
 }
 
-.feature_item_title{
-    margin-left: 50px;
+
+
+.p_content{
+    margin-left: 40px;
+    align-self: self-start;
+    
+}
+
+/* //sub_c1 */
+.sub_feature_c1{
+    padding: 10px 40px 40px 40px;
+}
+
+.img{
+    padding-top: 20px;
+}
+
+/* sub_c2 */
+.sub_feature_c2{
+    padding: 10px 40px 40px 40px;
+}
+
+.sub_feature_c2 h3{
+    margin-left: 60px;
+}
+
+.sub_feature_c2 .p_content{
+    margin-left: 100px;
 }
